@@ -25,6 +25,7 @@ Make sure to prepare your machine with the prerequisites from the Sitecore insta
 3. Sitecore 9.0.1 rev. 171219 (OnPrem)_xp0xconnect.scwdp.zip
 
 ## To-Do 
+* Recognize a JRE installation automatically
 * Module upload after installation
 
 
