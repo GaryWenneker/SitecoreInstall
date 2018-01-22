@@ -1,0 +1,2 @@
+#start our installation script using default values and overriding values that are custom. Only the prefix value is required
+. .\install-sitecore.ps1 -prefix "sample-sitecore9-installation" -solrPort "8966"
