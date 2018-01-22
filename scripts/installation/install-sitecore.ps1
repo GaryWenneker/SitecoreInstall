@@ -10,7 +10,7 @@ Param(
     [Parameter( Mandatory = $false)]
     $sqlAdminUser = "sa",
     [Parameter( Mandatory = $false)]
-    $sqlAdminPassword = "Telefax01!",
+    $sqlAdminPassword = "yourpassword",
     [Parameter( Mandatory = $false)]
     $installSolr = $true,
 	[Parameter( Mandatory = $false)]

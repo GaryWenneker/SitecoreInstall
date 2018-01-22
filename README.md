@@ -19,8 +19,14 @@ Make sure to prepare your machine with the prerequisites from the Sitecore insta
 2. Java JRE 8 x64
 3. IIS rewrite module
 
+## What's in the LocalLib folder (9.0.1 as an example below)?
+1. Your license.xml
+2. Sitecore 9.0.1 rev. 171219 (OnPrem)_single.scwdp.zip
+3. Sitecore 9.0.1 rev. 171219 (OnPrem)_xp0xconnect.scwdp.zip
+
 ## To-Do 
-The Java check version might fail. Need to check this
+* Module upload after installation
+
 
 ## Preparation steps
 1. Download the Sitecore 9.0.1 (or any 9.x version)  files and the XP0 configuration files. Unzip them to <root>\localLib. This should result in in two new zipfiles and five jsonfiles. Alternatively you can download the complete localLib folder from the Sitecore Competence teams Onedrive location: <Local Onedrive folder>\Sitecore 9\Sitecore 9.0.1 localLib
@@ -46,5 +52,6 @@ We haven't made it easy to remove sites, yet. These are the steps to remove a si
 2. Use ps: 'nssm remove "{Name of the service}" confirm' to remove each service.
 3. Remove the IIS sites.
 4. Remove all databases via SQL management studio.
-5. Remove the folders from the file system.
+5. Remove indices from Solr
+6. Remove the folders from the file system.
 Now you should have completely removed the site.
